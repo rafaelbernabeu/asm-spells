@@ -13,5 +13,5 @@ _start:
    syscall           ; call kernel
 
 section	.data
-msg     db 'Hello, world!', 10  ; define byte, 
-msgLen  equ $-msg               ; equate current position - msg position (length of the string)
+   msg     db 'Hello, world!', 10  ; define byte, 
+   msgLen  equ $-msg               ; equate current position - msg position (length of the string)
