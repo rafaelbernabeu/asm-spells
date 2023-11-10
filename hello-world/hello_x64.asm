@@ -1,7 +1,7 @@
 section	.text
-   global _start     ;entry point for linker (ld)
+   global _main     ;entry point for linker (ld)
 	
-_start:	
+_main:	
    mov  rax, 1       ; sys_write
    mov  rdi, 1       ; stdout
    mov  rsi, msg     ; message to write
